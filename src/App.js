@@ -5,6 +5,8 @@ import { BrowserRouter as Router , Route , Switch} from "react-router-dom";
 // Entry point to Home
 import Home from "./Home";
 import Header from "./Header";
+import Product from "./Product";
+
 function App() {
   return (
     <div className="app">
@@ -13,6 +15,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Product />
           </Route>
         </Switch>
       </Router>
