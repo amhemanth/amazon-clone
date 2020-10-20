@@ -5,7 +5,7 @@ function Home() {
         <div className="home">
             Hello 
         </div>
-    )
+    );
 }
 
 export default Home;

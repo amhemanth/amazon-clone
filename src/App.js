@@ -4,13 +4,14 @@ import './App.css';
 import { BrowserRouter as Router , Route , Switch} from "react-router-dom";
 // Entry point to Home
 import Home from "./Home";
-
+import Header from "./Header";
 function App() {
   return (
     <div className="app">
       <Router>
         <Switch>
           <Route path="/">
+            <Header />
             <Home />
           </Route>
         </Switch>
