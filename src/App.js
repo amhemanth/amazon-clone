@@ -3,9 +3,8 @@ import './App.css';
 
 import { BrowserRouter as Router , Route , Switch} from "react-router-dom";
 // Entry point to Home
-import Home from "./Home";
-import Header from "./Header";
-import Product from "./Product";
+import Home from './Home';
+import Header from './Header';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
-            <Product />
           </Route>
         </Switch>
       </Router>
